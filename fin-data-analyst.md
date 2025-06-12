@@ -257,7 +257,7 @@ plt.show()
 
 
     
-![Output](images_7_0.png)
+![Output](images/out_7_0.png)
     
 
 
@@ -473,7 +473,7 @@ lifesat_sample['life'].hist(bins=np.arange(2,9,0.5))
 
 
     
-![png](output_15_1.png)
+![png](images/png_15_1.png)
     
 
 
