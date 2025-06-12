@@ -257,7 +257,7 @@ plt.show()
 
 
     
-![Output](images/out_7_0.png)
+![output](images/output_7_0.png)
     
 
 
