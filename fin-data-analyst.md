@@ -473,7 +473,7 @@ lifesat_sample['life'].hist(bins=np.arange(2,9,0.5))
 
 
     
-![png](images/png_15_1.png)
+![output](images/output_15_1.png)
     
 
 
@@ -500,7 +500,7 @@ plt.hist(random, bins=np.arange(0,1,.05))
 
 
     
-![png](output_17_1.png)
+![output](output_17_1.png)
     
 
 
@@ -697,7 +697,7 @@ plt.show()
 
 
     
-![png](output_24_0.png)
+![output](images/output_24_0.png)
     
 
 
@@ -1030,7 +1030,7 @@ shuffled.plot(x="index", y= 'GDP', kind= "scatter")
 
 
     
-![png](output_28_1.png)
+![output](images/output_28_1.png)
     
 
 
@@ -1096,7 +1096,7 @@ plt.show()
 
 
     
-![png](output_34_0.png)
+![output](images/output_34_0.png)
     
 
 
