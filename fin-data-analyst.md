@@ -1,11 +1,11 @@
-# **Self training work on data consepts using GDP and life satisfaction**
-## The aim of this project is to demonstrate data analysis concepts and to test some hypothesis in this data. 
-### The Data was imported from github.com  . Below are the various pakages use in this experiment. The csv file was save as lifesat.
+# **Self-training work on data concepts using GDP and life satisfaction**
+This project aims to demonstrate data analysis concepts and test some hypotheses using this data. 
+### The Data was imported from github.com. Below are the various packages used in this experiment. The CSV file was saved as lifesat.
 
 
 ```python
 ### loading the necessary packages for the entire project. 
-import pandas as pd
+Import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 import numpy as np
@@ -19,7 +19,7 @@ from sklearn.linear_model import LinearRegression
 
 
 ```python
-### importing the data set from an online data base and saving the data set as lifesat 
+### importing the data set from an online database and saving the data set as lifesat 
 
 data_root=   "https://github.com/ageron/data/raw/main/"
 lifesat= pd.read_csv(data_root + "lifesat/lifesat.csv")
@@ -1071,9 +1071,9 @@ sample_sizes
 
 
 
- ## A boodstrap distribution of the error term.
+ ## A bootstrap distribution of the error term.
 
- Finding the standard error term use in calculating Z-score
+ Finding the standard error term used in calculating the Z-score
 
 
 ```python
@@ -1106,9 +1106,9 @@ plt.show()
 std_erre= np.std(boodstrap_distn, ddof=1)
 ```
 
-# calculating the population mean .
-The population mean was given as 41564. From this means it can clarly be stated that a GDP of 5000 and above signifies an average above the countries average GDP.
-This is an indicator that an economy with a gdp above 5000 economy performs better than it peers. However we most test the significanse of our result using Z-score. 
+# Calculating the population mean.
+The population mean was given as 41564. From this, it can be clearly stated that a GDP of 5000 and above signifies an average that is above the country's average GDP.
+This is an indicator that an economy with a GDP above $5000 performs better than its peers. However, we must test the significance of our result using the Z-score. 
 
 
 ```python
@@ -1131,9 +1131,9 @@ mean
 
 
 ```python
-# gdp greater than 5000 shows a better performing economics
+# GDP greater than 5000 shows a better-performing economy
 GDP_5000= 5000
-Z= (5000-mean)/std_erre
+Z (5000-mean)/std_erre
 Z
 ```
 
